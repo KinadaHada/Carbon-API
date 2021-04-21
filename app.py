@@ -18,9 +18,10 @@ CORS(app)
 def home():
     data = None
     if request.method == "POST":
-        data = request.get_json()
+        data = request.json
+        print(data)
         try:
-            code = data['code']
+            code = json.load(data)['code']
         except KeyError:
             return jsonify({"error": "Code is required to create a Carbon!"})
     else:
