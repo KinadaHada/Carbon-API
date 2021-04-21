@@ -73,7 +73,7 @@ https://carbonnowsh.herokuapp.com/?code=Made+with+Love+in+India+by+Sumanjay&them
 #### Deploy Option
 
 * **[Heroku](https://www.heroku.com/) Method** 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cyberboysumanjay/Carbon-API/tree/master)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KinadaHada/Carbon-API/tree/master)
 
 * **Other Method** 
 
