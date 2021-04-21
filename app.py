@@ -18,7 +18,7 @@ CORS(app)
 def home():
     data = None
     if request.method == "POST":
-        data = request.json
+        data = request.get_json()
         try:
             code = data['code']
         except KeyError:
